@@ -25,23 +25,37 @@ feeds:
     uri: https://github.com/kenzok8/small-package.git
     branch: main
     revision: fbcc7be7968c36fd6c6958a35e798d18d93d4733
+  - name: kiddin9
+    uri: https://github.com/kiddin9/openwrt-packages.git
+    branch: main
+    revision: ed776bc0b78e2498a270f38bffba7fbbe811078b
 include:
   - wifi-ax
 packages:
   - kmod-hwmon-pwmfan
+  - adguardhome
+  - UnblockNeteaseMusic-Go
   - wget-ssl
+  - ddns-scripts-dnspod
+  - ddns-scripts-aliyun
+  - ddns-scripts
+  - ddnsgo
+  - dockerd
+  - v2ray-core
+  - v2raya
+  - v2ray-geodata
+  - luci-app-adguardhome
+  - luci-app-aliddns
+  - luci-app-ddns-go
+  - luci-app-docker
+  - luci-app-dockerman
   - luci-theme-argon
   - luci-app-argon-config
-  - luci-app-ramfree
-  - luci-app-wol
   - luci-app-diskman
-  - luci-app-smartdns
   - luci-app-openclash
-  - luci-app-aria2
-  - luci-app-zerotier
   - luci-app-turboacc
-  - luci-app-xlnetacc
   - luci-app-cpufreq
   - luci-app-ttyd
-  - luci-app-serverchan
-  - luci-app-transmission
+  - luci-app-socat
+  - luci-app-v2raya
+  
